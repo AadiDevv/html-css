@@ -1,0 +1,395 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+ 
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: poppins;
+}
+html{
+    /* changes behavior when we click on nav-links (contact etc..)*/
+    scroll-behavior: smooth;
+}
+p{
+    color: rgb(85, 85, 85);
+}
+
+/* NAV */
+
+    /* flex title and li | flex li between them */
+    nav, .nav-links{
+        display: flex;
+    }
+    /* move the whole "nav" arround */
+    nav{
+        margin: 0 20px 20px 20px;
+        padding: 10px;
+        justify-content:space-around;
+        align-items:first baseline;
+       
+        
+    }
+    /* style the line */
+    .nav-links{
+        gap: 4em ;  
+        list-style: none;
+        font-size: 1.5em;
+    }
+    /* style what li contains */
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .nav-links a:hover{
+        color: grey;
+        text-decoration: underline;
+        /* giving space between a and underline */
+        text-underline-offset: 1em;
+        text-decoration-color: grey;
+    }
+
+    nav .logo{
+        display: flex;
+        align-items: last baseline;
+        gap: 5px;
+    }
+   .logo h1{
+    font-size: 4em;
+    opacity: 0.9;
+    font-weight: 500;
+   } 
+   .logo h1:hover{
+    cursor:default;
+   }
+   
+/* SECTION */
+section{
+    box-sizing: border-box;
+    height: 95vh;
+    margin: 0 10rem;
+    min-height: fit-content;
+    
+}
+
+.section__main-container{
+    display: flex;
+
+
+}
+.section__text{
+    align-self: center;
+    text-align: center;
+}
+.section__text p{
+    font-weight: 600;
+
+}
+.section__text__p1{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+#hello{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* PRESENTAION SECTION */
+
+    /* display: flex;
+    justify-content: center; */
+    /* gap: 5em;
+    height: 80vh; */
+
+
+.upper-presentaion-container{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    
+
+}
+    
+.pic-container{
+display: flex;
+width: 400px;
+height: 400px;
+margin: auto 0;
+}
+.text_p1{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.title{
+    display: flex;
+    justify-content:center;
+    align-items: last baseline;
+    gap: 5%;
+}
+.title_1{
+    font-size: 50px;
+}
+.title_2{
+    color: rgb(85, 85, 85);
+    font-size: 50px;
+}
+.text_p2{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* .text_p2{
+
+} */
+.presentaion-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     position: relative;
+    left: 80px;
+    margin: auto 0;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* ICON */
+    .icon{
+        cursor: pointer;
+        height: 2rem;
+    }
+
+    /* BUTTON */
+
+    /* .button_name{
+        text-align: center;
+        font-weight: bold;
+    } */
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+        gap: 15px;
+    }
+
+    .btn{
+        width: 125px;
+        font-weight: 600;
+        padding: 20px;
+        border-radius: 2rem;
+   }
+
+   .button-1, .button-2{
+    border: 1px solid rgb(50, 50, 50);
+   }
+   .button-1{
+    background-color: none;
+   }
+   .button-2{
+    color: white;
+    background-color: rgb(70, 70, 70);
+   }
+   .button-1:hover,
+   .button-2:hover{
+    background-color: rgb(35, 35, 35);
+    cursor: pointer;
+   }
+
+   .button-1:hover{
+    border-color: rgb(35, 35, 35);
+    color: white;
+   }
+   
+/* SECTION ABOUT */
+
+#about{
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.page-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-h1{
+    margin-bottom: 50px;
+}
+
+.section__main-container{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+}
+#about .pic-container{
+    margin: auto 10px;
+}
+
+.about_secondary-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+}
+.about_detail-container{
+    display:flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.details-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(35, 35, 35);
+    border-radius: 30px;
+    padding: 25px;
+    flex-grow: 1;
+    margin: auto 5px;
+}
+.text-container{
+    margin: auto 10px;
+}
+
+.about-pic{
+    border-radius: 25px;
+}
+.arrow{
+    display:flex;
+    justify-content: right;
+}
+
+/* PROJECT */
+#project{
+    position: relative;
+}
+#project .page-title{
+    margin-bottom: 15px;
+}
+.pic-project{
+    width: 300px;
+    height: 300px;
+    border-radius: 15%;
+}
+
+.pic-project.pic-project-3{
+    width: 80%;
+    height: 80%;
+    border-radius: 15%;
+}
+ .project-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 20px;
+    height: 80vh;
+
+    border-top: 2px solid #d1e5ff;
+    border-bottom:2px solid #d1e5ff;
+    
+   
+    padding: 50px;
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+} 
+
+div .project-arrow{
+    position: absolute;
+    right: -10%;
+    bottom: 0%;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(85, 85, 85);
+    border-radius: 10px;
+}
+
+
+/* CONTACT */
+
+#contact{
+    position: relative;
+    top: 200px;
+    height: 75vh;
+}
+
+.upper-contactme-container{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    border: 2px solid #d1e5ff;
+    padding: 35px;
+    border-radius: 2rem;
+    gap: 5px;
+    width: fit-content;
+
+    
+}
+.contactme-container{
+    display: flex;
+    align-items:center;
+    padding: 20px;
+    gap: 2px;
+}
+
+.contactme-container a{
+    font-size: larger;
+}
+.contactme-container .icon{
+    cursor: default;
+}
+.contactme-container .email{
+   height: 2.5rem;
+}
+
+/* FOOTER */
+footer{
+    position: relative;
+    top: 175px;
+    height: 5vh;
+    margin: 0 ;
+    background-color: #d1e5ff
+}
+
+footer p{
+    display: block;
+    text-align: center;
+    width: 100%;
+    
+}
