@@ -12,8 +12,7 @@
 
     <!-- MAIN NAV BAR -->
     <nav id="navbar">
-        
-        <div>
+        <div class="logo">
             <h1>SA</h1>
             <p><em>Satyal Aaditya</em></p>
         </div>
@@ -96,12 +95,17 @@
                     </div>
                     </div>
                     <div class="text-container">
-                        <p>23 ans, <em>jeune et ambitieux</em>, cherchant un métier dans lequel 
-                            je puisse mettre en oeuvre ma détermination et m'inverstir pleinement.</p> 
-                           <p> J'ai ensuite découvert la tech et <em>une passion est née!</em> J'ai appris peut à peut
-                    à me former en autonomie, en me donnant à l'apprentissage durant tout mon temps libre. Car oui,
-                    <em>le temps est précieux et je tiens à l'investir du mieux possible</em>.</p> <p>Pour ce faire je souhaite intégrer
-            une école capable de me fournir<em>la bonne ligne directive</em>, par laquelle "si on s'investit, on réussi"</p> <div class=""></div>  </p>
+                        <p>Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Sunt quia odio in sint 
+                            reiciendis est impedit nam, ratione,
+                            
+                            
+                            officia 
+                            eos enim itaque facere minima dolorum quasi 
+                            commodi obcaecati hic ipsam. Quaerat dolore 
+                            eaque rem minus sunt commodi quam. Nemo illum
+                            ipsum, sunt rerum animi quaerat delectus in! Unde,
+                            provident ut!</p>
                     </div>
             </div>
         </div>
