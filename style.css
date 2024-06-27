@@ -45,12 +45,13 @@ p{
 
     /* flex title and li | flex li between them */
     nav, .nav-links{
-        display: flex;
+       
     }
     /* move the whole "nav" arround */
     nav{
-        margin: 0 20px 20px 20px;
-        padding: 10px;
+        display: flex;
+        margin-bottom: 2rem;
+        padding: 1rem;
         justify-content:space-around;
         align-items:first baseline;
        
@@ -58,6 +59,7 @@ p{
     }
     /* style the line */
     .nav-links{
+        display: flex;
         gap: 4em ;  
         list-style: none;
         font-size: 1.5em;
